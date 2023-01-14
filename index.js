@@ -3,7 +3,7 @@
         getAllPropertyNames: function(obj, useCache = true) {
             return getAllPropertyNames(obj, -1, useCache);
         },
-        getNPropertyNames:function(obj, n = -1, useCache = true) {
+        getNPropertyNames: function(obj, n = -1, useCache = true) {
             return getAllPropertyNames(obj, n, useCache);
         },
     }).forEach(([n, f]) => {
