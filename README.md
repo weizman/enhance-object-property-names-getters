@@ -19,7 +19,7 @@ Object.getNPropertyNames(document, 3); // ['location', 'constructor', ...] (leng
 Object.getAllPropertyNames(document); // ['location', 'constructor', ...] (length:299)
 ```
 
-You can also pass to both final boolean argument to either use or avoid caching of properties
+You can also pass to both a final boolean argument to either use or avoid caching of properties (default:true)
 
 ## Explanation
 
