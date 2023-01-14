@@ -1,6 +1,6 @@
 {
     "name": "enhance-object-property-names-getters",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Enhance Object with getAllPropertyNames and getNPropertyNames",
     "main": "index.js",
     "repository": {
