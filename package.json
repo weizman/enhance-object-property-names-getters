@@ -1,14 +1,14 @@
 {
-    "name": "enhance-object-property-names-getter",
-    "version": "1.4.0",
+    "name": "enhance-object-property-names-getters",
+    "version": "0.0.1",
     "description": "Enhance Object with getAllPropertyNames and getNPropertyNames",
     "main": "index.js",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/weizman/enhance-object-property-names-getter.git"
+      "url": "git+https://github.com/weizman/enhance-object-property-names-getters.git"
     },
     "keywords": [],
     "author": "",
     "license": "MIT",
-    "homepage": "https://github.com/weizman/enhance-object-property-names-getter/"
+    "homepage": "https://github.com/weizman/enhance-object-property-names-getters/"
   }

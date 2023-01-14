@@ -1,10 +1,10 @@
-# enhance-object-property-names-getter
+# enhance-object-property-names-getters
 
 Enhance `Object` with `getAllPropertyNames` and `getNPropertyNames`
 
 ## Install
 
-Simply require/import `enhance-object-property-names-getter` from npm/yarn
+Simply require/import `enhance-object-property-names-getters` from npm/yarn
 
 ## Use
 
