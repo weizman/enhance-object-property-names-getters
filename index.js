@@ -1,21 +1,19 @@
 (function(){
-    Object.defineProperty(Object, 'getAllPropertyNames', {
-        configurable: true,
-        writable: true,
-        enumerable: false,
-        value: function(obj, useCache = true) {
+    Object.entries({
+        getAllPropertyNames: function(obj, useCache = true) {
             return getAllPropertyNames(obj, -1, useCache);
         },
-    });
-
-    Object.defineProperty(Object, 'getNPropertyNames', {
-        configurable: true,
-        writable: true,
-        enumerable: false,
-        value: function(obj, n = -1, useCache = true) {
+        getNPropertyNames:function(obj, n = -1, useCache = true) {
             return getAllPropertyNames(obj, n, useCache);
         },
-    });
+    }).forEach(([n, f]) => {
+        Object.defineProperty(Object, n, {
+            configurable: true,
+            writable: true,
+            enumerable: false,
+            value: f,
+        });    
+      });
 
     function getAllPropertyNames(obj, n, useCache, props = []) {
         if (!obj || !n) {
