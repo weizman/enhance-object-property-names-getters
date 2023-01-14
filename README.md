@@ -10,6 +10,8 @@ Visit [demo](https://weizman.github.io/enhance-object-property-names-getters/dem
 
 Simply require/import `enhance-object-property-names-getters` from npm/yarn
 
+Or include with a script tag `<script src="https://unpkg.com/enhance-object-property-names-getters/index.js"></script>`
+
 ## Use
 
 After requiring/importing, `Object` will have new configurable descriptors:
