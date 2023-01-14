@@ -2,6 +2,10 @@
 
 Enhance `Object` with `getAllPropertyNames` and `getNPropertyNames`
 
+## Demo
+
+Visit [demo](https://weizman.github.io/enhance-object-property-names-getters/demo/)
+
 ## Install
 
 Simply require/import `enhance-object-property-names-getters` from npm/yarn
